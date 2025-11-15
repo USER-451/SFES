@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SFES – Sustainable Farming with E-Soil</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0a0f16, #111827);
+    color: #e5e7eb;
+  }
+  header {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(12px);
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.4);
+    z-index: 10;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #4fd1c5;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  nav a {
+    margin: 0 15px;
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    color: #4fd1c5;
+  }
+
+  .section {
+    padding: 70px 60px;
+    margin: 50px auto;
+    width: 80%;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 22px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.45);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* SIMPLE HOVER EFFECT */
+  .section:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 60px rgba(0,0,0,0.7);
+  }
+
+  h2 {
+    color: #4fd1c5;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  p {
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  /* SCROLLING IMAGES */
+  .scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 30px;
+  }
+  .scroll-images {
+    display: inline-block;
+    animation: scroll 16s linear infinite;
+  }
+
+  /* Increased image size */
+  .scroll-images img {
+    width: 320px;
+    height: 210px;
+    margin: 0 25px;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>SFES – Sustainable Farming with E-Soil</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#model">Our Model</a>
+    <a href="#esoil">E-Soil Tech</a>
+    <a href="#experiment">Experiments</a>
+    <a href="#plants">Plants Used</a>
+    <a href="#ack">Acknowledgment</a>
+  </nav>
+</header>
+
+<!-- HOME -->
+<div id="home" class="section">
+  <h2>Welcome to SFES</h2>
+  <p>
+    SFES (Sustainable Farming with E-Soil) is our innovative approach toward a greener future.
+    We combine modern hydroponics with an electrically-enhanced substrate called <strong>E-Soil</strong>,
+    designed to boost plant growth by nearly <strong>70%</strong>. Our goal is to revolutionize sustainable agriculture
+    using clean technology and accessible materials.
+  </p>
+</div>
+
+<!-- MODEL -->
+<div id="model" class="section">
+  <h2>Our Sustainable Farming Model</h2>
+  <p>
+    Our model integrates hydroponics with a specially engineered substrate—E-Soil. This combination enables
+    faster plant growth, higher nutrient absorption, and climate-friendly farming. The system is designed to be
+    low-maintenance, eco-friendly, and efficient, making it suitable for both indoor setups and large-scale farming.
+    The electricity voltage increases the nitrogen solubility of the soil increasing plant growth , morevor with the use 
+    of cellulose in form of cocopeat we stack the stats for increased plant growth.
+  </p>
+</div>
+
+<!-- E-SOIL -->
+<div id="esoil" class="section">
+  <h2>What is E-Soil?</h2>
+  <p>
+    E-Soil is a voltage-activated substrate created using <strong>coco peat</strong>, a cellulose-rich material known for
+    high water retention and superior aeration. Cellulose naturally conducts electricity better than typical soil.
+    When we introduce a controlled electric voltage, nitrogen solubility increases significantly, enhancing nutrient
+    uptake and accelerating physical growth of the plant.
+    <br><br>
+    This makes E-Soil a powerful upgrade to traditional hydroponic media.
+  </p>
+</div>
+
+<!-- EXPERIMENT -->
+<div id="experiment" class="section" style="display: flex; align-items: center; gap: 40px;">
+  <div style="flex: 1;">
+    <h2>Our Experiments</h2>
+    <p>
+      We conducted controlled experiments on barley seeds using regular coco peat versus E-Soil.
+      Plants grown in E-Soil showed:
+    </p>
+    <ul>
+      <li>Faster germination</li>
+      <li>Stronger and longer root development</li>
+      <li>Nearly 70% higher physical growth</li>
+      <li>Healthier leaf structure</li>
+      <li>Lesser wastage of water and far more production</li>
+    </ul>
+    <p>
+      These results demonstrate the effectiveness of voltage-enhanced substrates in promoting plant health.
+    </p>
+  </div>
+
+  <div style="flex: 1; display:flex; justify-content:center;">
+    <img src="graph.jpeg" alt="Growth Comparison Graph" style="width:90%; border-radius:18px; box-shadow:0 0 25px rgba(0,0,0,0.5); object-fit:cover;">
+  </div>
+</div>
+
+<!-- PLANTS -->
+<div id="plants" class="section">
+  <h2>Plants Used in the Model</h2>
+  <p>
+    For the live model demonstration, we chose the <strong>Spider Plant</strong> because:
+  </p>
+  <ul>
+    <li>It is an excellent indoor air-purifying plant</li>
+    <li>Requires minimal maintenance</li>
+    <li>Responds well to hydroponic environments</li>
+    <li>Shows visible growth improvements in E-Soil</li>
+  </ul>
+  <p>
+    Earlier tests were performed on <strong>barley</strong>, which displayed remarkable growth enhancement.
+  </p>
+</div>
+
+<!-- ACKNOWLEDGMENT -->
+<div id="ack" class="section">
+  <h2>Acknowledgment</h2>
+  <p>
+    We extend our gratitude to our teachers, mentors, and guides who supported our innovation. Their
+    encouragement helped us design and refine SFES into a functional and environmentally impactful model.
+    We give credits to following people with peak of our respect :--
+    
+  <ul>
+    <li>1. Sangeeta Adlakha Mam , Priyanka Mam and Harpreet sir for providing essential guidance</li>
+    <li>2. Aruna Mam also for providing the guidance without wich we never imagined to come this far.</li>
+    <li>3. Linkoping university , for intoducing the idea of e soil eithout any modifications to world</li>
+    
+  </ul></p>
+</div>
+
+<!-- ACHIEVEMENTS -->
+<div id="achievements" class="section">
+  <h2>Our Achievements</h2>
+  <p>
+    SFES has received recognition for innovation in sustainable farming and the integration of electrical enhancement in hydroponic substrates. Here is a showcase of our milestones and achievements:
+    We managed to reach CBSE national exhibition 2024 , along with managing to get recogonised in the newspaper 
+
+  </p>
+
+  <div class="scroll-container">
+    <div class="scroll-images">
+      <img src="WhatsApp Image 2025-11-01 at 20.24.37.jpeg" alt="Achievement 1">
+      <img src="WhatsApp Image 2025-11-01 at 20.24.37.jpeg" alt="Achievement 2">
+      <img src="exp.jpeg" alt="Achievement 3">
+      <img src="zoom.jpeg" alt="Achievement 4">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
